@@ -2,10 +2,10 @@ const urlParams = new URLSearchParams(window.location.search);
 const username = urlParams.get('user');
 
 let usersWithBalances = [
-    { username: "Eduardo", password: "12345", balance: 900 },
-    { username: "Andrea", password: "67890", balance: 500 },
-    { username: "Judith", password: "12345", balance: 700 },
-    { username: "Haniel", password: "12345", balance: 900 }
+    { username: "Eduardo", password: "12345", balance: 990 },
+    { username: "Andrea", password: "67890", balance: 525 },
+    { username: "Judith", password: "12345", balance: 747 },
+    { username: "Haniel", password: "17945", balance: 900 }
 ];
 
 if (username) {
